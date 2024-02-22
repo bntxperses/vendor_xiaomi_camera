@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Leica Camera Overlay Configuration for Poco F3 -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <!-- Enable Parallel Processing by default -->
+   <bool name="pref_camera_parallel_process_enable_default">true</bool>
+   <!-- Enable Experimental Portrait Fix by default -->
+   <bool name="pref_experimental_portrait_default">true</bool>
+   <!-- Set Documents Ver. 2 by default -->
+   <string name="pref_documents_default">2</string>
+</resources>
