@@ -19,29 +19,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.misys</name>
         <version>1.0</version>
-        <interface>
-            <name>IMiSys</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.misys</name>
         <version>2.0</version>
-        <interface>
-            <name>IMiSys</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.misys</name>
         <version>3.0</version>
-        <interface>
-            <name>IMiSys</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.misys</name>
         <version>4.0</version>
         <interface>
             <name>IMiSys</name>
@@ -49,4 +28,4 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
         </interface>
     </hal>
 ```
-3.1 Reference - https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common/commit/47e3f385a6cd16b0200a4bfd34cad1fba75ac210
+3.1 Reference - https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common/commit/c8ae872b8fdbc682da0f98a2031125d68ef0afe9
