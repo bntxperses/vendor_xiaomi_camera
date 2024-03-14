@@ -16,6 +16,7 @@ system_ext/lib/libOpenCL_system.so
 system_ext/lib64/libOpenCL_system.so
 
 # Device Camera Deps
+vendor/bin/f2player
 vendor/lib64/lib_sr_models.so
 vendor/lib64/libarcsat.so
 vendor/lib64/libbeauty_face_interface.so
