@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
     MiuiCameraOverlayLos \
     MiuiCameraOverlayAosp
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
+
 # System Properties
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.android.camera \
