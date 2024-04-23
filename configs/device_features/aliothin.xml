@@ -478,6 +478,8 @@
     <bool name="support_hangup_while_screen_off">true</bool>
     <!-- whether support dc backlight -->
     <bool name="support_dc_backlight">false</bool>
+    <!-- whether support secret dc backlight -->
+    <bool name="support_secret_dc_backlight">true</bool>
     <!-- whether support backlight bit switch -->
     <bool name="support_backlight_bit_switch">true</bool>
     <!-- whether support display expert mode -->
