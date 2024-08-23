@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.com.google.lens.oem_camera_package=com.android.camera \
-    ro.miui.notch=1
+    ro.miui.notch=1 \
+    persist.sys.cam.skip_detach_image=true
 
 # Logging
 PRODUCT_SYSTEM_PROPERTIES += \
